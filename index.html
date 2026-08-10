@@ -21,30 +21,37 @@
       crossorigin="anonymous"
     ></script>
 
-    <header class="d-flex flex-row bg-dark text-white p-2 mb-auto my-auto">
+    <header
+      class="navbar d-flex flex-row bg-dark text-white p-2 mb-auto my-auto sticky-top bg-opacity-75"
+    >
       <div class="d-flex me-auto my-auto">
         <img
           src="icons8-bootstrap-48.png"
           class=""
           style="width: 45; height: 45"
         />
-        <div class="p-2 m-auto my-auto">Get<a style="color: plum">Bootstrap</a></div>
+        <div class="p-2 m-auto my-auto">
+          Get<a style="color: plum">Bootstrap</a>
+        </div>
       </div>
 
       <form class="d-flex my-auto">
-      <div class="input-group-sm d-flex p-2">
-        <input
-          type="search"
-          class="form-control d-flex rounded-0 rounded-start"
-          placeholder="search.."
-        />
-        <div class="input-group-btn">
-        <button class="bi bi-search btn btn-primary rounded-0 rounded-end" type="submit" ></button>
-      </div>
-      </div>
+        <div class="input-group-sm d-flex p-2">
+          <input
+            type="search"
+            class="form-control d-flex rounded-0 rounded-start"
+            placeholder="search.."
+          />
+          <div class="input-group-btn">
+            <button
+              class="bi bi-search btn btn-primary rounded-0 rounded-end"
+              type="submit"
+            ></button>
+          </div>
+        </div>
       </form>
 
-      <button class=" btn btn-warning btn-sm my-auto ">Login</button>
+      <button class="btn btn-warning btn-sm my-auto">Login</button>
     </header>
 
     <article class="row">
@@ -62,16 +69,51 @@
       </div>
     </article>
 
-  <section>
-    <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-  </section>
-
+    <section class="d-flex justify-content-center m-5">
+      <div
+        class="card bg-dark text-white position-relative"
+        style="width: 20rem"
+      >
+        <header class="bg-primary" style="height: 100px"></header>
+        <img
+          src="Sonion.jpg"
+          class="rounded-circle position-absolute start-50 translate-middle"
+          style="width: 125px; height: auto; object-fit: cover; top: 100px"
+        />
+        <div class="card-body pt-5">
+          <h5 class="card-title text-center text-white mt-4">Card title</h5>
+          <h6 class="card-title text-center text-primary">Card title</h6>
+          <p class="card-text opacity-50 text-white p-3 text-center">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+        </div>
+        <div class="row text-center ">
+          <div class="badge">HTML</div>
+          <div class="col-3 p-2">CSS</div>
+          <div class="col-3 p-2">Bootstrap</div>
+          <div class="col-3 p-2">JavaScript</div>
+          <div class="col-3 p-2">JavaScript</div>
+        </div>
+        <div class="card-body text-center">
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+        </div>
+        <div class="row text-white text-center p-4 border-top">
+          <div class="col-4 border-end">
+            <h6>12</h6>
+            <small>PROYEK</small>
+          </div>
+          <div class="col-4 border-end">
+            <h6>100%</h6>
+            <small>PROYEK</small>
+          </div>
+          <div class="col-4">
+            <h6>4.9</h6>
+            <small>PROYEK</small>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
